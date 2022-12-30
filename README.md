@@ -17,6 +17,10 @@ systemctl status hello
 
 Start the service:
 ```bash
-systemctl start hello
+sudo systemctl start hello
 ```
 
+Check logs:
+```bash
+journalctl -fu hello
+```
