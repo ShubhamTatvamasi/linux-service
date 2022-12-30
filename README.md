@@ -24,3 +24,10 @@ Check logs:
 ```bash
 journalctl -fu hello
 ```
+
+---
+
+Enable auto start service:
+```bash
+sudo systemctl enable hello
+```
